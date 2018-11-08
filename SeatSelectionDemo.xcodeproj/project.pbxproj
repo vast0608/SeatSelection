@@ -13,6 +13,15 @@
 		2C277D81218D774F00CCA9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C277D80218D774F00CCA9B3 /* Assets.xcassets */; };
 		2C277D84218D774F00CCA9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C277D82218D774F00CCA9B3 /* LaunchScreen.storyboard */; };
 		2C277D87218D774F00CCA9B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277D86218D774F00CCA9B3 /* main.m */; };
+		2C277D8F218D780100CCA9B3 /* StationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277D8E218D780100CCA9B3 /* StationVC.m */; };
+		2C277D95218D7CFC00CCA9B3 /* DataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277D94218D7CFC00CCA9B3 /* DataCell.m */; };
+		2C277D9B218D7F1200CCA9B3 /* RadioBoxFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277D97218D7F1200CCA9B3 /* RadioBoxFun.m */; };
+		2C277D9C218D7F1200CCA9B3 /* UIButton+TTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277D99218D7F1200CCA9B3 /* UIButton+TTButton.m */; };
+		2C277DA3218D8D5900CCA9B3 /* NumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277DA2218D8D5900CCA9B3 /* NumberCell.m */; };
+		2C277DA6218D934700CCA9B3 /* TimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277DA5218D934700CCA9B3 /* TimeCell.m */; };
+		2C277DAA218FD8F900CCA9B3 /* TipsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277DA8218FD8F800CCA9B3 /* TipsViewCell.m */; };
+		2C277DAB218FD8F900CCA9B3 /* TipsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C277DA9218FD8F800CCA9B3 /* TipsViewCell.xib */; };
+		2C277DAE218FE05000CCA9B3 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C277DAD218FE05000CCA9B3 /* BottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		2C277D83218D774F00CCA9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C277D85218D774F00CCA9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C277D86218D774F00CCA9B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C277D8D218D780100CCA9B3 /* StationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationVC.h; sourceTree = "<group>"; };
+		2C277D8E218D780100CCA9B3 /* StationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationVC.m; sourceTree = "<group>"; };
+		2C277D93218D7CFC00CCA9B3 /* DateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		2C277D94218D7CFC00CCA9B3 /* DataCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataCell.m; sourceTree = "<group>"; };
+		2C277D97218D7F1200CCA9B3 /* RadioBoxFun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioBoxFun.m; sourceTree = "<group>"; };
+		2C277D98218D7F1200CCA9B3 /* UIButton+TTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TTButton.h"; sourceTree = "<group>"; };
+		2C277D99218D7F1200CCA9B3 /* UIButton+TTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TTButton.m"; sourceTree = "<group>"; };
+		2C277D9A218D7F1200CCA9B3 /* RadioBoxFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioBoxFun.h; sourceTree = "<group>"; };
+		2C277DA1218D8D5900CCA9B3 /* NumberCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberCell.h; sourceTree = "<group>"; };
+		2C277DA2218D8D5900CCA9B3 /* NumberCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberCell.m; sourceTree = "<group>"; };
+		2C277DA4218D934700CCA9B3 /* TimeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeCell.h; sourceTree = "<group>"; };
+		2C277DA5218D934700CCA9B3 /* TimeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCell.m; sourceTree = "<group>"; };
+		2C277DA7218FD8F800CCA9B3 /* TipsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipsViewCell.h; sourceTree = "<group>"; };
+		2C277DA8218FD8F800CCA9B3 /* TipsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsViewCell.m; sourceTree = "<group>"; };
+		2C277DA9218FD8F800CCA9B3 /* TipsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipsViewCell.xib; sourceTree = "<group>"; };
+		2C277DAC218FE05000CCA9B3 /* BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		2C277DAD218FE05000CCA9B3 /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,20 @@
 				2C277D78218D774D00CCA9B3 /* AppDelegate.m */,
 				2C277D7A218D774D00CCA9B3 /* ViewController.h */,
 				2C277D7B218D774D00CCA9B3 /* ViewController.m */,
+				2C277D8D218D780100CCA9B3 /* StationVC.h */,
+				2C277D8E218D780100CCA9B3 /* StationVC.m */,
+				2C277D93218D7CFC00CCA9B3 /* DateCell.h */,
+				2C277D94218D7CFC00CCA9B3 /* DataCell.m */,
+				2C277DA1218D8D5900CCA9B3 /* NumberCell.h */,
+				2C277DA2218D8D5900CCA9B3 /* NumberCell.m */,
+				2C277DA4218D934700CCA9B3 /* TimeCell.h */,
+				2C277DA5218D934700CCA9B3 /* TimeCell.m */,
+				2C277DA7218FD8F800CCA9B3 /* TipsViewCell.h */,
+				2C277DA8218FD8F800CCA9B3 /* TipsViewCell.m */,
+				2C277DA9218FD8F800CCA9B3 /* TipsViewCell.xib */,
+				2C277DAC218FE05000CCA9B3 /* BottomView.h */,
+				2C277DAD218FE05000CCA9B3 /* BottomView.m */,
+				2C277D96218D7EE500CCA9B3 /* RadioBoxLibrary */,
 				2C277D7D218D774D00CCA9B3 /* Main.storyboard */,
 				2C277D80218D774F00CCA9B3 /* Assets.xcassets */,
 				2C277D82218D774F00CCA9B3 /* LaunchScreen.storyboard */,
@@ -69,6 +109,17 @@
 				2C277D86218D774F00CCA9B3 /* main.m */,
 			);
 			path = SeatSelectionDemo;
+			sourceTree = "<group>";
+		};
+		2C277D96218D7EE500CCA9B3 /* RadioBoxLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2C277D9A218D7F1200CCA9B3 /* RadioBoxFun.h */,
+				2C277D97218D7F1200CCA9B3 /* RadioBoxFun.m */,
+				2C277D98218D7F1200CCA9B3 /* UIButton+TTButton.h */,
+				2C277D99218D7F1200CCA9B3 /* UIButton+TTButton.m */,
+			);
+			path = RadioBoxLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C277DAB218FD8F900CCA9B3 /* TipsViewCell.xib in Resources */,
 				2C277D84218D774F00CCA9B3 /* LaunchScreen.storyboard in Resources */,
 				2C277D81218D774F00CCA9B3 /* Assets.xcassets in Resources */,
 				2C277D7F218D774D00CCA9B3 /* Main.storyboard in Resources */,
@@ -141,9 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C277DAA218FD8F900CCA9B3 /* TipsViewCell.m in Sources */,
+				2C277DA3218D8D5900CCA9B3 /* NumberCell.m in Sources */,
 				2C277D7C218D774D00CCA9B3 /* ViewController.m in Sources */,
+				2C277D8F218D780100CCA9B3 /* StationVC.m in Sources */,
+				2C277D95218D7CFC00CCA9B3 /* DataCell.m in Sources */,
+				2C277DAE218FE05000CCA9B3 /* BottomView.m in Sources */,
 				2C277D87218D774F00CCA9B3 /* main.m in Sources */,
+				2C277DA6218D934700CCA9B3 /* TimeCell.m in Sources */,
 				2C277D79218D774D00CCA9B3 /* AppDelegate.m in Sources */,
+				2C277D9C218D7F1200CCA9B3 /* UIButton+TTButton.m in Sources */,
+				2C277D9B218D7F1200CCA9B3 /* RadioBoxFun.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
